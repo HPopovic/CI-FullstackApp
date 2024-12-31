@@ -42,5 +42,4 @@ jobs:
         run: cd backend && npm run lint
 
       # Send a console message at completion.
-      - run: |
-        echo "Hello ${{github.actor}}. You pushed to ${{github.repository}} at $(date)."
+      - run: echo "Hello ${{github.actor}}. You pushed to ${{github.repository}} at $(date)."
